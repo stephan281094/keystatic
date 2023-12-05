@@ -42,12 +42,12 @@ import "@keystatic/core/ui";
           vite,
         });
         injectRoute({
-          entryPoint: '@keystatic/astro/internal/keystatic-astro-page.astro',
+          entrypoint: '@keystatic/astro/internal/keystatic-astro-page.astro',
           pattern: '/keystatic/[...params]',
           prerender: false,
         });
         injectRoute({
-          entryPoint: '@keystatic/astro/internal/keystatic-api.js',
+          entrypoint: '@keystatic/astro/internal/keystatic-api.js',
           pattern: '/api/keystatic/[...params]',
           prerender: false,
         });
